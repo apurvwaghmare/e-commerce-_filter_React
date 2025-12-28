@@ -1,0 +1,27 @@
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    border: 5px solid #3498db;
+    background-color: #3498db;
+    padding: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 2px;
+}
+
+.nav-item {
+    color: white;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.nav-item:hover {
+    color: #2c3e50;
+}
+
+.nav-item p {
+    margin: 0;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
